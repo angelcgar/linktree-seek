@@ -3,7 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mi Linktree personal con enlaces a mis redes sociales y proyectos."
+    />
+    <meta
+      name="keywords"
+      content="Linktree, redes sociales, Instagram, Twitter, LinkedIn, YouTube, blog"
+    />
+    <meta name="author" content="Tu Nombre" />
+    <meta property="og:title" content="Mi Linktree" />
+    <meta
+      property="og:description"
+      content="Encuentra todos mis enlaces importantes en un solo lugar."
+    />
+    <meta property="og:image" content="https://ejemplo.com/tu-imagen.jpg" />
+    <meta property="og:url" content="https://ejemplo.com/tu-linktree" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mi Linktree" />
+    <meta
+      name="twitter:description"
+      content="Encuentra todos mis enlaces importantes en un solo lugar."
+    />
+    <meta name="twitter:image" content="https://ejemplo.com/tu-imagen.jpg" />
     <title>Mi Linktree</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -16,8 +43,14 @@
         max-width: 400px;
         margin: 0 auto;
       }
+      .linktree h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
       .linktree a {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #0073e6;
         color: white;
         padding: 15px;
@@ -29,20 +62,33 @@
       .linktree a:hover {
         background-color: #005bb5;
       }
+      .linktree a i {
+        margin-right: 10px;
+        font-size: 1.2rem;
+      }
     </style>
   </head>
   <body>
     <div class="linktree">
       <h1>Mi Linktree</h1>
-      <a href="https://www.instagram.com/tuusuario" target="_blank"
-        >Instagram</a
-      >
-      <a href="https://www.twitter.com/tuusuario" target="_blank">Twitter</a>
-      <a href="https://www.linkedin.com/in/tuusuario" target="_blank"
-        >LinkedIn</a
-      >
-      <a href="https://www.youtube.com/tuusuario" target="_blank">YouTube</a>
-      <a href="https://www.tublog.com" target="_blank">Mi Blog</a>
+      <a href="https://www.instagram.com/tuusuario" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://www.twitter.com/tuusuario" target="_blank">
+        <i class="fab fa-twitter"></i> Twitter
+      </a>
+      <a href="https://www.linkedin.com/in/tuusuario" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://www.youtube.com/tuusuario" target="_blank">
+        <i class="fab fa-youtube"></i> YouTube
+      </a>
+      <a href="https://www.tublog.com" target="_blank">
+        <i class="fas fa-blog"></i> Mi Blog
+      </a>
+      <a href="https://www.github.com/tuusuario" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
     </div>
   </body>
 </html>
